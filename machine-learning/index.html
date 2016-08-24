@@ -1,0 +1,13 @@
+---
+title: Machine learning
+layout: page
+category: index
+description: 'A collection of posts related to machine learning.'
+
+---
+
+<div class="items">
+{% for post in site.categories.machine-learning limit: 10 %}
+{% include archive-item.html %}
+{% endfor %}
+</div>

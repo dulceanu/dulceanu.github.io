@@ -71,6 +71,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-archives
 
 # Disable excerpts
 excerpt_separator: "----"
@@ -82,3 +83,21 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Jekyll archives configuration
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - categories
+    - tags
+  layouts:
+    year: archive-time
+    month: archive-time
+    category: archive-name
+    tag: archive-name
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    tag: '/:name/archive/'
+    category: '/:name/archive/'

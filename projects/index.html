@@ -1,0 +1,13 @@
+---
+title: Projects
+layout: page
+category: index
+description: 'A collection of posts related to the projects I'm involved in.'
+
+---
+
+<div class="items">
+{% for post in site.categories.projects limit: 10 %}
+{% include archive-item.html %}
+{% endfor %}
+</div>

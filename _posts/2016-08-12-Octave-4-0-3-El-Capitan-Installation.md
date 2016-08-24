@@ -3,6 +3,7 @@ layout: post
 title: How to install Octave 4.0.3 on OS X El Capitan
 author: andrei
 comments: true
+category: machine-learning
 ---
 
 Here's a quick guide on how to install Octave 4.0.3 on OS X El Capitan and also enable plotting.
