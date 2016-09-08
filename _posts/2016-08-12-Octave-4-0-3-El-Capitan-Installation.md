@@ -8,7 +8,7 @@ category: machine-learning
 
 Here's a quick guide on how to install Octave 4.0.3 on OS X El Capitan and also enable plotting.
 
-## Octave 4.0.3 installation on OS X El Capitan:
+### Octave 4.0.3 installation on OS X El Capitan:
 
 ```bash
 $ brew tap homebrew/science
