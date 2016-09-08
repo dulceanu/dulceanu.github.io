@@ -52,4 +52,4 @@ Founder, ABC Organisation
 
 ## Contact me
 
-[andrei.dulceanu@gmail.com](andrei.dulceanu@gmail.com)
+[andrei.dulceanu@gmail.com](mailto:andrei.dulceanu@gmail.com)
